@@ -1,3 +1,4 @@
+//@Author Shoaib Ud-DIn
 //Send the request to the Core
 //Arguments: pin, on, deviceId, accessToken
 $(document).ready(function() {
@@ -32,7 +33,7 @@ $(document).ready(function() {
 	    });
 	}
 
-	//Pin ON
+	//Click function to Pin ON
 	$('.on').click(function(event) {
     	/* Act on the event */
     	var deviceId = $('.device-id').val();
@@ -40,7 +41,7 @@ $(document).ready(function() {
         var pinNumber = $('.pin-number').val();
         sendRequest(pinNumber, true, deviceId, accessToken);
     });
-	//Pin OFF
+	//Click function to Pin OFF
     $('.off').click(function(event) {
     	/* Act on the event */
     	var deviceId = $('.device-id').val();

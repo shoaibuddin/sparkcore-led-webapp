@@ -7,27 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Cover Template for Bootstrap</title>
+    <title>Spark Core LED Web App</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/core.css">
 </head>
 
 <body>
     <div class="site-wrapper">
-        <div class="site-wrapper-inner">
+        <div class="site-wrapper-inner ">
             <div class="cover-container">
                 <div class="inner cover">
                     <h1 class="cover-heading">Spark Core control using jQuery / HTML!</h1>
-                    <p class="lead">Basic webpage to control Spark Core Dx pins using jQuery
+                    <p class="lead">Basic webpage to control Spark Core pins using jQuery/HTML
 
                     </p>
                     <ul>
-                        <li>Upload spark-src/firmware.ino to your Core.</li>
-                        <li>Open index.html.</li>
+                        <li>Upload spark-src/led-webapp.ino to your @ <a href="https://www.spark.io/build">Core</a>.</li>
+                        <li>Fire index.html in browser</li>
                         <li>Enter your Core's Device ID and Access Token</li>
-                        <li>Choose a pin number and select ON or OFF.</li>
+                            <ul>
+                                <li>Use <a href="https://github.com/spark/spark-cli">Sparl CLI</a> to communicate with your core</li>
+                                <li>Use "$ spark list" to get devie ID</li>
+                                <li>Use "$ spark login" to get access token</li>
+                                <li>Use "$ spark login" to get access token</li>
+                                
+                            </ul>
+                        <li>Choose a pin number and select Turn ON LED or Turn OFF LED.</li>
                     </ul>
                 </div>
                 <div class="mastfoot">
@@ -35,10 +42,10 @@
                         <h2>Authentication</h2>
                         <form method="get">
                             <p>Device ID:
-                                <input type="text" class="device-id" value="53ff6e065075535143161487" />
+                                <input type="text" class="device-id" />
                             </p>
                             <p>Access Token:
-                                <input type="text" class="access-token" value="3529298216888181e5bec794a4ee1cb89ae1e359" />
+                                <input type="text" class="access-token" />
                             </p>
                         </form>
 
@@ -48,10 +55,10 @@
                             <p>Pin number (0 - 7):
                                 <input type="text" class="pin-number" value="0" />
                             </p>
-                            <input type="button" class="on btn btn-lg btn-default" value="ON" />
-                            <input type="button" class="off btn btn-lg btn-default" value="OFF" />
+                            <input type="button" class="on btn btn-lg btn-default" value="Turn ON LED" />
+                            <input type="button" class="off btn btn-lg btn-default" value="Turn OFF LED" />
                         </form>
-                        <br/><br/><p>By <a href="https://shoaibuddin.com">@shoaibuddin</a>.</p>
+                        <br/><br/><p>By: www:<a href="http://shoaibuddin.com">shoaibuddin</a>, @<a href="http://twitter.com/shoaibuddin">shoaibuddin</a>.</p>
                     </div>
                 </div>
             </div>
