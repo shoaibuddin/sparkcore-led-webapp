@@ -10,3 +10,11 @@ A basic web app to control Spark Core pins using jQuery adn HTML
 	2. Use "$ spark list" to get devie ID
 	3. Use "$ spark login" to get access token
 4. Choose a pin number and select Turn ON LED or Turn OFF LED.
+
+### Version
+1.0
+
+### Demo URL
+[Demo URL]
+
+[Demo URL]:htto://www.shoaibuddin.com/projects/sparkcore-led-webapp/index.html
