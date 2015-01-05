@@ -15,6 +15,4 @@ A basic web app to control Spark Core pins using jQuery adn HTML
 1.0
 
 ### Demo URL
-[Demo URL]
-
-[Demo URL]:htto://www.shoaibuddin.com/projects/sparkcore-led-webapp/index.html
+htto://www.shoaibuddin.com/projects/sparkcore-led-webapp/index.html
