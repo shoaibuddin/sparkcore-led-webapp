@@ -23,11 +23,11 @@ $(document).ready(function() {
 	        success: function(data) {
 			    
 	            data;
-	            console.log('success', data);
-	            console.log('url', url);
+	            console.log('Success Data: ', data);
+	            console.log('Url', url);
 	        },
 	        error: function(){
-	        	console.log('Error');
+	        	console.log('Error, Please make sure that you typed correct Device ID and Access Token');
 	        },
 	        dataType: "json"
 	    });
