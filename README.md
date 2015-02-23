@@ -16,3 +16,6 @@ A basic web app to control Spark Core pins using jQuery adn HTML
 
 ### Demo URL
 www.shoaibuddin.com/projects/sparkcore-led-webapp/index.html
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/shoaibuddin/sparkcore-led-webapp/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
